@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-teal-700 text-white py-4 shadow-md">
+    <header className="bg-gradient-to-r from-teal-700 via-teal-600 to-teal-500 text-white py-4 shadow-md">
       <div className="px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center flex-wrap">
         <button className="text-2xl font-bold hover:text-gray-200">
           The Education Club
