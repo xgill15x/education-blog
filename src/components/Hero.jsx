@@ -11,10 +11,10 @@ const Hero = () => {
     <section
       className="bg-cover bg-center bg-no-repeat text-white min-h-screen w-full flex flex-col justify-center items-center text-center px-4"
       style={{
-        backgroundImage: "url('/classroom-background.jpg')",
+        backgroundImage: "url('./classroom-background.jpg')",
       }}
     >
-      <div className="p-6 rounded-md bg-black bg-opacity-50 w-full max-w-3xl">
+      <div className="p-6 rounded-md bg-black bg-opacity-50 w-full max-w-3xl mt-8">
         <h2 className="text-4xl font-bold mb-4">
           Welcome First-Time Educators!
         </h2>
