@@ -7,11 +7,23 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const reloadPage = () => {
+    window.location.reload();
+  };
+
+  const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+    setIsMenuOpen(false);
+  };
+
   return (
-    <header className="bg-gradient-to-r from-teal-700 via-teal-600 to-teal-500 text-white py-4 shadow-md">
+    <header className="text-white py-4 shadow-md">
       <div className="px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center flex-wrap">
-        <button className="text-2xl font-bold hover:text-gray-200">
-          The Education Club
+        <button
+          className="text-2xl font-bold hover:text-gray-200"
+          onClick={reloadPage}
+        >
+          The Education Club 📚
         </button>
 
         <button
@@ -58,16 +70,36 @@ const Header = () => {
         >
           <ul className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 sm:justify-end">
             <li>
-              <button className="hover:text-gray-200">Home</button>
+              <button
+                className="hover:text-gray-200"
+                onClick={() => scrollToSection("home")}
+              >
+                Home
+              </button>
             </li>
             <li>
-              <button className="hover:text-gray-200">Resources</button>
+              <button
+                className="hover:text-gray-200"
+                onClick={() => scrollToSection("resources")}
+              >
+                Resources
+              </button>
             </li>
             <li>
-              <button className="hover:text-gray-200">About</button>
+              <button
+                className="hover:text-gray-200"
+                onClick={() => scrollToSection("about")}
+              >
+                About
+              </button>
             </li>
             <li>
-              <button className="hover:text-gray-200">Contact</button>
+              <button
+                className="hover:text-gray-200"
+                onClick={() => scrollToSection("contact")}
+              >
+                Contact
+              </button>
             </li>
           </ul>
         </nav>
