@@ -8,7 +8,9 @@ const Reproduction = () => {
       className="min-h-screen w-full bg-gray-100 px-6 py-12 text-center md:text-left"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-teal-700 mb-8">Reproduction</h2>
+        <h2 className="text-4xl font-bold text-teal-700 mb-8">
+          Social Reproduction
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div>

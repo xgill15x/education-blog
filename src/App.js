@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Authority from "./components/Authority";
 import Reproduction from "./components/Reproduction";
 import Resources from "./components/Resources";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import BackgroundImage from "./images/classroom-background.jpg";
@@ -24,6 +25,7 @@ function App() {
       <Authority />
       <Reproduction />
       <Resources />
+      <About />
       <Footer />
       <ScrollToTopButton />
     </div>

@@ -93,14 +93,6 @@ const Header = () => {
                 About
               </button>
             </li>
-            <li>
-              <button
-                className="hover:text-gray-200"
-                onClick={() => scrollToSection("contact")}
-              >
-                Contact
-              </button>
-            </li>
           </ul>
         </nav>
       </div>
