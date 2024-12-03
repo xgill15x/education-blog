@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./Card"; // Import the Card component
+import Card from "./Card";
+import BackgroundImage from "../images/classroom-background.jpg";
 
 const Hero = () => {
   const handleCardClick = () => {
-    // Scroll to the top of the page
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -11,7 +11,7 @@ const Hero = () => {
     <section
       className="bg-cover bg-center bg-no-repeat text-white min-h-screen w-full flex flex-col justify-center items-center text-center px-4"
       style={{
-        backgroundImage: "url('./classroom-background.jpg')",
+        backgroundImage: `url(${BackgroundImage})`,
       }}
     >
       <div className="p-6 rounded-md bg-black bg-opacity-50 w-full max-w-3xl mt-8">
