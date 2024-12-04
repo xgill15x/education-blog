@@ -1,5 +1,5 @@
 import React from "react";
-import ReproductionImage1 from "../images/reproduction1.jpg";
+import ReproductionImage1 from "../images/reproduction1.jpeg";
 
 const Reproduction = () => {
   return (
@@ -15,7 +15,7 @@ const Reproduction = () => {
           Section Authored By: Jason Gill
         </p>
 
-        <div className="grid grid-cols-1 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 gap-12 items-center mb-12">
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               An Introduction to Social Reproduction in Education
@@ -33,8 +33,8 @@ const Reproduction = () => {
               Second, you have the opportunity to make your classroom a space
               where societal norms are not only questioned but reimagined.
               Encouraging your students to connect the themes taught in class to
-              real-world issues allows them to make changes beyond the four
-              walls of your classroom.
+              real-world issues, without prejudice, allows them to make changes
+              beyond the four walls of your classroom.
               <br />
               <br />
               To provide the bigger picture around SRT, it's a framework to
@@ -55,7 +55,7 @@ const Reproduction = () => {
         </div>
 
         {/* First Block: Text on Left, YouTube Video on Right */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               Flowers Are Red 🌹
@@ -114,21 +114,58 @@ const Reproduction = () => {
         </div>
 
         {/* Third Block: Text on Left, Image on Right */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              Empowering Students Beyond the Classroom
-            </h3>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              blah blah blah
-            </p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <img
               src={ReproductionImage1}
               alt="Team working together"
               className="rounded-lg shadow-md"
             />
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-teal-600 mb-4">
+              A Personal Anecdote
+            </h3>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Having recently finished my last internship, I noticed quite an
+              overlap between my academic and corporate experiences. Both of
+              these worlds measured my performance, either with a standardized
+              letter grade system or a rubric-like performance scale. Similarly,
+              just as I was required to present my work at school via academic
+              presentations, I demoed my work in front of my team for new
+              features I had implemented. While I can recognize the value these
+              ventures brought to my personal and career growth, I can't help
+              but reflect on the factors that more than likely have had a hand
+              in influencing my direction in life. Have I succeeded because of
+              my individuality and passion for what I love, or has the education
+              system, with all its quirks and motives laid out by Social
+              Reproduction Theory, prepared me to be the perfect worker for
+              capitalist interests? This possibility is entertained by Backer
+              and Cairns as they discuss how “the [current] education system is
+              required to produce individuals who are selected and arranged in a
+              hierarchy such that [the goal of] giving everyone equal education
+              opportunity cannot overcome the real inequalities” (Backer &
+              Cairns, 2021).
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-12 items-center">
+          <div className="order-last md:order-first">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              The fact of the matter is that educational institutions have the
+              distinctive ability to groom individuals for specific societal
+              roles in order to align with the current needs of Western
+              capitalism, and this process no doubt requires meticulous moulding
+              of its subjects and promoting conformity and productivity,
+              regardless of whether it fuels vicious cycles of inequality. The
+              parallels between my academic and corporate environments are too
+              apparent to chalk up as coincidence. It's a blatant display of how
+              behaviours rewarded in an educational environment conveniently
+              align with behaviours expected in the corporate world. This was
+              all the more clear to me after studying Social Reproduction Theory
+              and why I believe educators must be aware of this framework too.
+            </p>
           </div>
         </div>
       </div>
