@@ -1,16 +1,18 @@
 import React from "react";
+import JasonImage from "../images/jason.jpg";
+import HoangImage from "../images/hoang.jpg";
 
 const About = () => {
   const authors = [
     {
       name: "Jason Gill",
       bio: "Computer Scientist and Student",
-      image: "../images/jason.jpg",
+      image: JasonImage,
     },
     {
       name: "Hoang Nguyen",
       bio: "Computer Scientist and Student",
-      image: "../images/hoang.jpg",
+      image: HoangImage,
     },
   ];
 
