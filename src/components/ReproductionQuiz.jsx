@@ -79,7 +79,7 @@ const ReproductionQuiz = () => {
       {showScore ? (
         <div>
           <h3 className="text-2xl font-bold text-teal-600 mb-4">
-            Quiz Completed!
+            You've tested your knowledge!
           </h3>
           <p className="text-lg text-gray-700">
             {
