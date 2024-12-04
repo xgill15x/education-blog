@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import ReproductionImage1 from "../images/reproduction1.jpeg";
+import ReproductionQuiz from "./ReproductionQuiz";
 
 const Reproduction = () => {
+  const [showQuiz, setShowQuiz] = useState(false);
+
+  const toggleQuiz = () => {
+    setShowQuiz((prev) => !prev);
+  };
+
   return (
     <section
       id="reproduction"
@@ -54,7 +61,6 @@ const Reproduction = () => {
           </div>
         </div>
 
-        {/* First Block: Text on Left, YouTube Video on Right */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
@@ -84,7 +90,6 @@ const Reproduction = () => {
           </div>
         </div>
 
-        {/* Second Block: Image on Left, Text on Right */}
         <div className="grid grid-cols-1 gap-12 items-center mb-16">
           <div className="order-last md:order-first">
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -113,7 +118,6 @@ const Reproduction = () => {
           </div>
         </div>
 
-        {/* Third Block: Text on Left, Image on Right */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <img
@@ -150,7 +154,7 @@ const Reproduction = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 items-center">
+        <div className="grid grid-cols-1 mb-12 gap-12 items-center">
           <div className="order-last md:order-first">
             <p className="text-lg text-gray-700 leading-relaxed">
               The fact of the matter is that educational institutions have the
@@ -169,6 +173,21 @@ const Reproduction = () => {
           </div>
         </div>
       </div>
+
+      <div className="text-center">
+        <button
+          className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
+          onClick={toggleQuiz}
+        >
+          {showQuiz ? "Hide Quiz" : "Test Your Knowledge 🤓"}
+        </button>
+      </div>
+
+      {showQuiz && (
+        <div className="mt-8">
+          <ReproductionQuiz />
+        </div>
+      )}
     </section>
   );
 };
