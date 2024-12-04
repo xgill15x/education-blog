@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 mb-8 px-4 max-w-6xl w-full">
         <Card
           title="Shared Authority 🤝"
-          description="Gain the ability to lead and inspire others in the community."
+          description="Learn how to build a collaborative classroom where students share leadership, feel valued, and take ownership of their learning journey."
           gradient="bg-gradient-to-r from-green-400 to-teal-500"
           onClick={() => {
             document
@@ -27,7 +27,7 @@ const Hero = () => {
         />
         <Card
           title="Social Reproduction 🌱"
-          description="Build and replicate successful ideas for impactful projects."
+          description="Learn the significance of passing on values and ideas that inspire change and create lasting impacts beyond the classroom."
           gradient="bg-gradient-to-r from-yellow-400 to-orange-500"
           onClick={() => {
             document
