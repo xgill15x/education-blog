@@ -9,7 +9,7 @@ const Reproduction = () => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-teal-700 mb-2">
-          Social Reproduction
+          Social Reproduction 🌱
         </h2>
         <p className="text-md text-gray-600 mb-8">
           Section Authored By: Jason Gill
@@ -18,7 +18,7 @@ const Reproduction = () => {
         <div className="grid grid-cols-1 gap-12 items-center mb-12">
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              An Introduction to Social Reproduction in Education
+              An Snapshot Introduction to Social Reproduction in Education 📸
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               As a teacher, Social Reproduction Theory (SRT) is a concept you
@@ -26,7 +26,7 @@ const Reproduction = () => {
               to explain how educational systems have the unique ability to
               reinforce social norms, values and inequalities. You, as a
               teacher, have more power than you may know. This power is immense
-              and comes with great responsibility (a cliche, I know...). The
+              and comes with great responsibility (a cliche, I know 😬). The
               ideas from SRT should serve as a reminder regarding a couple of
               things. First, each step in the pedagogy process matters, as it
               will shape the future generation and what they deem important.
@@ -124,7 +124,7 @@ const Reproduction = () => {
           </div>
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              A Personal Anecdote
+              A Personal Anecdote 📝
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               Having recently finished my last internship, I noticed quite an
