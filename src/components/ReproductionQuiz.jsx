@@ -56,9 +56,16 @@ const ReproductionQuiz = () => {
         text: `✅ Correct! ${questions[currentQuestion].explanation}`,
       });
     } else {
+      const incorrectPhrases = [
+        "🫣 Woops! Doesn't hurt to try again!",
+        "😕 Not quite right. Give it another shot!",
+        "🙁 Oops! Try once more.",
+      ];
       setFeedback({
         type: "incorrect",
-        text: "❌ Incorrect. Please try again.",
+        text: incorrectPhrases[
+          Math.floor(Math.random() * incorrectPhrases.length)
+        ],
       });
     }
   };
