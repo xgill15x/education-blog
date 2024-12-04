@@ -12,7 +12,7 @@ const Resources = () => {
     <section id="resources" className="w-full bg-gray-100 py-12">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-teal-700 mb-8 text-center">
-          Resources
+          Resources 🗂
         </h2>
         <div className="relative overflow-hidden">
           <div className="flex space-x-6 animate-slide">

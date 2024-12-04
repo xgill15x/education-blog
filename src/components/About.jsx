@@ -19,7 +19,7 @@ const About = () => {
   return (
     <section id="about" className="w-full bg-gray-100 py-12">
       <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
-        <h2 className="text-4xl font-bold text-teal-700 mb-8">About Us</h2>
+        <h2 className="text-4xl font-bold text-teal-700 mb-8">About Us 👋</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {authors.map((author, index) => (
             <div

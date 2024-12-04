@@ -23,7 +23,7 @@ const Header = () => {
           className="text-2xl font-bold hover:text-gray-200"
           onClick={reloadPage}
         >
-          The Education Club 📚
+          Better Education Club 📚
         </button>
 
         <button
