@@ -6,7 +6,7 @@ const About = () => {
   const authors = [
     {
       name: "Jason Gill",
-      bio: "Hey, I'm Jason. I've attended both private and public schools in Canada and experienced how cultural and religious influences play a part in modern education. These experiences have allowed me to garner a breadth of perspectives on the art of pedagogy. While my education has been rooted in Canadian education, I collaborate closely with Hoang to pair my insights with his international perspective. Having recently the ideas presented in SFU's 'Social Issues in Education' class, I aim to provide educators with the intellectual sustenance that I believe will help them create a positive impact for all students.",
+      bio: "Hey, I'm Jason. I've attended both private and public schools in Canada and experienced how cultural and religious influences play a part in modern education. These experiences have allowed me to garner a breadth of perspectives on the art of pedagogy. While my education has been rooted in Canadian education, I collaborate closely with Hoang to pair my insights with his international perspective. Having recently been enlightened by the ideas presented in SFU's 'Social Issues in Education' class, I aim to provide educators with the intellectual sustenance that I believe will help them create a positive impact for all students.",
       image: JasonImage,
     },
     {
