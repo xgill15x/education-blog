@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/education-blog/static/css/main.284ebe01.css",
-    "main.js": "/education-blog/static/js/main.2b76d98d.js",
+    "main.css": "/education-blog/static/css/main.a1056e60.css",
+    "main.js": "/education-blog/static/js/main.051b54d7.js",
     "static/js/453.05827196.chunk.js": "/education-blog/static/js/453.05827196.chunk.js",
     "static/media/pedagogy-of-the-oppressed.pdf": "/education-blog/static/media/pedagogy-of-the-oppressed.0f5c3f1091b8c7b0d4a3.pdf",
     "static/media/alienated-learning-in-hong-kong-a-marxist-perspective.pdf": "/education-blog/static/media/alienated-learning-in-hong-kong-a-marxist-perspective.e45a2c903e04f5152a67.pdf",
@@ -20,12 +20,12 @@
     "static/media/quote.png": "/education-blog/static/media/quote.fb888b04881e732a52a8.png",
     "static/media/pedagogy-of-the-oppressed.jpg": "/education-blog/static/media/pedagogy-of-the-oppressed.f1759e8ac935f3a9c378.jpg",
     "index.html": "/education-blog/index.html",
-    "main.284ebe01.css.map": "/education-blog/static/css/main.284ebe01.css.map",
-    "main.2b76d98d.js.map": "/education-blog/static/js/main.2b76d98d.js.map",
+    "main.a1056e60.css.map": "/education-blog/static/css/main.a1056e60.css.map",
+    "main.051b54d7.js.map": "/education-blog/static/js/main.051b54d7.js.map",
     "453.05827196.chunk.js.map": "/education-blog/static/js/453.05827196.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.284ebe01.css",
-    "static/js/main.2b76d98d.js"
+    "static/css/main.a1056e60.css",
+    "static/js/main.051b54d7.js"
   ]
 }
