@@ -3,41 +3,82 @@ import React, { useState } from "react";
 const ReproductionQuiz = () => {
   const questions = [
     {
-      question: "What does Social Reproduction Theory (SRT) primarily examine?",
+      question:
+        "What is the primary focus of Social Reproduction Theory (SRT) in education?",
       options: [
-        "How education prepares individuals for specific societal roles",
-        "How education focuses only on academic success",
-        "How teachers foster creativity and innovation",
-        "How students choose their career paths freely",
+        "To explore how students can become better test-takers",
+        "To analyze how societal norms and inequalities are reproduced through education",
+        "To prepare students for creative and artistic careers",
+        "To identify the best teaching methods for every classroom",
       ],
-      correct: 0,
+      correct: 1,
       explanation:
-        "SRT examines how education systems reinforce societal norms and prepare individuals for specific societal roles, often perpetuating existing inequalities.",
+        "SRT focuses on how education systems reinforce societal norms, values, and inequalities over generations.",
     },
     {
       question:
-        "What is a key critique of the education system according to SRT?",
+        "According to Freire, who must lead the struggle for a fuller humanity?",
       options: [
-        "It encourages creativity and originality",
-        "It perpetuates existing societal inequalities",
-        "It eliminates socioeconomic hierarchies",
-        "It is free from societal influences",
+        "The oppressed, who must reclaim their humanity",
+        "Teachers, who are responsible for societal reform",
+        "The government, through educational policies",
+        "Societal elites, as they shape educational goals",
       ],
-      correct: 1,
+      correct: 0,
       explanation:
-        "SRT critiques how education systems often reinforce class, race, and gender inequalities instead of eliminating them.",
+        "Freire emphasizes that “[the oppressed] who must, from their stifled humanity, wage for the struggle for a fuller humanity” as the oppressor cannot lead this struggle.",
     },
     {
-      question: "How can teachers challenge the patterns identified in SRT?",
+      question:
+        "What is a key way teachers can empower students in the classroom?",
       options: [
-        "By reinforcing existing norms",
-        "By promoting critical thinking and creativity",
-        "By avoiding discussions on societal issues",
-        "By emphasizing strict classroom hierarchies",
+        "By minimizing interactions and focusing on lectures",
+        "By encouraging competition among peers",
+        "By involving students in shaping their educational experiences",
+        "By setting high expectations and strict discipline",
+      ],
+      correct: 2,
+      explanation:
+        "Teachers can empower students by involving them in shaping their educational experiences which allows for critical thinking and genuine reflection.",
+    },
+    {
+      question:
+        "What does the song 'Flowers Are Red' primarily highlight about education?",
+      options: [
+        "The value of strict classroom routines",
+        "The role of teachers in enforcing rules",
+        "The importance of academic success over creativity",
+        "The dangers of stifling creativity and individuality",
+      ],
+      correct: 3,
+      explanation:
+        "'Flowers Are Red' highlights how detrimental rigid educational systems can be in suppressing creativity and individuality, as reflected by the themes of SRT.",
+    },
+    {
+      question:
+        "What is an effective way to go beyond the curriculum in teaching?",
+      options: [
+        "Focusing exclusively on test preparation",
+        "Encouraging healthy tangents to connect material to students' interests",
+        "Avoiding discussions unrelated to the syllabus",
+        "Sticking strictly to the approved curriculum",
       ],
       correct: 1,
       explanation:
-        "Teachers can challenge SRT patterns by fostering creativity, encouraging critical thinking, and questioning societal norms.",
+        "Going beyond the curriculum involves encouraging meaningful tangents that relate material to students’ interests and experiences.",
+    },
+    {
+      question:
+        "How should teachers handle students' passions and interests in the classroom?",
+      options: [
+        "Guide students toward practical career-oriented goals",
+        "Allow them to shape students' educational paths",
+        "Acknowledge passions but prioritize standardized testing",
+        "Focus on academics and consider passions secondary",
+      ],
+      correct: 1,
+      explanation:
+        "Teachers should nurture students' passions and interests to help them shape their identity and encourage authentic growth.",
     },
   ];
 

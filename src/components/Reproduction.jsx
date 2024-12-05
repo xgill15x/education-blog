@@ -31,32 +31,31 @@ const Reproduction = () => {
               As a teacher, Social Reproduction Theory (SRT) is a concept you
               must familiarize yourself with to better hone your craft. It seeks
               to explain how educational systems have the unique ability to
-              reinforce social norms, values and inequalities. You, as a
-              teacher, have more power than you may know. This power is immense
-              and comes with great responsibility (a cliche, I know 😬). The
-              ideas from SRT should serve as a reminder regarding a couple of
-              things. First, each step in the pedagogy process matters, as it
-              will shape the future generation and what they deem important.
-              Second, you have the opportunity to make your classroom a space
-              where societal norms are not only questioned but reimagined.
-              Encouraging your students to connect the themes taught in class to
-              real-world issues, without prejudice, allows them to make changes
-              beyond the four walls of your classroom.
+              reinforce social norms, values and inequalities. Further, it helps
+              us understand how these institutions reproduce these dynamics
+              throughout generations. You, as a teacher, have more power than
+              you may know. This power is immense and comes with great
+              responsibility (a cliche, I know 😬). The ideas from SRT should
+              serve as a reminder regarding a couple of things. First, each step
+              in the pedagogy process matters, as it will shape the future
+              generation and what they deem important. Second, you have the
+              opportunity to make your classroom a space where societal norms
+              are not only questioned but reimagined. Encouraging your students
+              to connect the themes taught in class to real-world issues and
+              their passions, without capping their potential, allows them to
+              make changes beyond the four walls of your classroom.
               <br />
               <br />
-              To provide the bigger picture around SRT, it's a framework to
-              analyze how societal structures, dominant norms and power
-              relations within society are reproduced throughout generations,
-              relying on institutions, such as schools, families and workplaces.
-              It illustrates how education perpetuates inequality within the
-              classes, races, and genders as it lays out the "who should get
-              what" narrative prevalent in the world. For example, it can help
-              us explore if the current education structure naturally tends to
-              students primed for workforce positions, with the goal being to
-              disrupt patterns showing bias towards current societal
-              expectations which ultimately keep existing structures intact.
-              Discussions of this nature allow everyone an equal opportunity to
-              think critically and change the dominant ideologies.
+              SRT illustrates how education perpetuates inequality within the
+              classes, races, and genders as it lays out the rigid "who gets to
+              do what" blueprint used all too prevalent in society today.{" "}
+              <b>
+                Remember: As an educator, your role is not to decide a student’s
+                path solely based on your preconceived notions of them or what
+                the curriculum demands! You must find ways to empower them to
+                discover and pursue the paths they are passionate about,
+                breaking free from societal expectations.
+              </b>
             </p>
           </div>
         </div>
@@ -69,11 +68,11 @@ const Reproduction = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               An absolutely beautiful and creative piece to introduce you to
               Social Reproduction Theory is a song by Harry Chaplin called
-              "Flowers Are Red". It's a rather poignant story of a child who
-              loses his creative spark as a result of the oppressive pedagogy
-              practiced by his teacher. It's an homage to the importance of
-              encouraging individuality and questioning norms not only in
-              education but also in society.
+              "Flowers Are Red" <b>(Chaplin, 2016)</b>. It's a rather poignant
+              story of a child who loses his creative spark as a result of the
+              oppressive pedagogy practiced by his teacher. It's an homage to
+              the importance of encouraging individuality and questioning norms
+              not only in education but also in society.
             </p>
           </div>
           <div>
@@ -119,14 +118,7 @@ const Reproduction = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
-          <div>
-            <img
-              src={ReproductionImage1}
-              alt="Team working together"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-          <div>
+          <div className="order-1 md:order-2">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               A Personal Anecdote 📝
             </h3>
@@ -148,46 +140,172 @@ const Reproduction = () => {
               and Cairns as they discuss how “the [current] education system is
               required to produce individuals who are selected and arranged in a
               hierarchy such that [the goal of] giving everyone equal education
-              opportunity cannot overcome the real inequalities” (Backer &
-              Cairns, 2021).
+              opportunity cannot overcome the real inequalities”{" "}
+              <b>(Backer & Cairns, 2021)</b>.
             </p>
+          </div>
+          <div className="order-2 md:order-1">
+            <img
+              src={ReproductionImage1}
+              alt="Team working together"
+              className="rounded-lg shadow-md"
+            />
           </div>
         </div>
 
         <div className="grid grid-cols-1 mb-12 gap-12 items-center">
           <div className="order-last md:order-first">
+            <h3 className="text-2xl font-semibold text-teal-600 mb-4">
+              A Look at Hong Kong's Educational System 🇭🇰
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The fact of the matter is that educational institutions have the
-              distinctive ability to groom individuals for specific societal
-              roles in order to align with the current needs of Western
-              capitalism, and this process no doubt requires meticulous moulding
-              of its subjects and promoting conformity and productivity,
-              regardless of whether it fuels vicious cycles of inequality. The
-              parallels between my academic and corporate environments are too
-              apparent to chalk up as coincidence. It's a blatant display of how
-              behaviours rewarded in an educational environment conveniently
-              align with behaviours expected in the corporate world. This was
-              all the more clear to me after studying Social Reproduction Theory
-              and why I believe educators must be aware of this framework too.
+              Social Reproduction Theory, despite its name, is not purely
+              theoretical 😅... it applies to much of what we see in education
+              today. A particular educational journal, Alienated Learning in
+              Hong Kong: A Marxist Perspective, goes on to highlight the
+              experiences of Student A, who voiced that their education felt
+              like "learn[ing] exam skills" and did not contribute to practical
+              skills "relevant to [their] life <b>(Tsang, Lian, & Zhu, 2021)</b>
+              . Another account from Student M highlights how their school
+              deprioritized personal interests and passions, going as far as
+              restricting these activities as a means to get underperforming
+              students to keep up with their academically inclined peers.
+              <br />
+              <br />
+              The idea, that academic performance defines a student's worth and
+              potential, can damage a student beyond repair and hinder their
+              full potential. As a pedagogical figure, you must be mindful of
+              how you treat a student's unique talents and passions, as your
+              goal should be to nurture these characteristics and help students
+              thrive through personalization. Through these means true growth is
+              achieved.
             </p>
           </div>
         </div>
-      </div>
 
-      <div className="text-center">
-        <button
-          className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
-          onClick={toggleQuiz}
-        >
-          {showQuiz ? "Hide Questions" : "Test Your Knowledge 🤓"}
-        </button>
-      </div>
-
-      {showQuiz && (
-        <div className="mt-8">
-          <ReproductionQuiz />
+        <div className="mb-12 bg-white shadow-lg rounded-lg p-6">
+          <h3 className="text-3xl font-semibold text-teal-600 mb-6">
+            How to Apply Social Reproduction Theory to Your Classroom 🧑‍🏫
+          </h3>
+          <ul className="space-y-6">
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Value Student Voice. It's Your North Star ✨
+                </h4>
+                <p className="text-gray-700">
+                  Use methods such as{" "}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Photovoice"
+                    className="text-blue-500 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <b>Photovoice</b>
+                  </a>{" "}
+                  to allow for genuine critical reflection among students, and
+                  guide them toward what they want to get out of your class{" "}
+                  <b>(Tsang, Lian, & Zhu, 2021)</b>. As Freire says, it is “[the
+                  oppressed] who must, from their stifled humanity, wage for the
+                  struggle for a fuller humanity” as the “oppressor who is
+                  himself dehumanized because he dehumanizes others, is unable
+                  to lead this struggle” <b>(Freire, 2017)</b>.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Find What Makes Your Students Tick ⏰
+                </h4>
+                <p className="text-gray-700">
+                  Take time to understand each student's passions and interests.
+                  These are entry points that you can leverage to help drive
+                  their growth. Guide and nurture these aspects to help them
+                  shape who they want to become.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Don't Be Afraid to Go Beyond the Curriculum 🚀
+                </h4>
+                <p className="text-gray-700">
+                  We understand that, as a teacher, you have a curriculum to
+                  follow. However, sticking to it shouldn't mean stifling
+                  meaningful conversation. Healthy tangents are encouraged to
+                  allow students to connect with the material through their
+                  interests and experiences.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
-      )}
+
+        <div className="text-center">
+          <button
+            className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
+            onClick={toggleQuiz}
+          >
+            {showQuiz ? "Hide Questions" : "Test Your Knowledge 🤓"}
+          </button>
+        </div>
+
+        {showQuiz && (
+          <div className="mt-8">
+            <ReproductionQuiz />
+          </div>
+        )}
+      </div>
     </section>
   );
 };
