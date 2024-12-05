@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="text-white py-4 shadow-md">
+    <header id="header" className="text-white py-4 shadow-md">
       <div className="px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center flex-wrap">
         <button
           className="text-2xl font-bold hover:text-gray-200"
@@ -69,14 +69,6 @@ const Header = () => {
           } sm:block`}
         >
           <ul className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 sm:justify-end">
-            <li>
-              <button
-                className="hover:text-gray-200"
-                onClick={() => scrollToSection("home")}
-              >
-                Home
-              </button>
-            </li>
             <li>
               <button
                 className="hover:text-gray-200"

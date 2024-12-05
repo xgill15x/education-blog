@@ -7,7 +7,7 @@ import Reproduction from "./components/Reproduction";
 import Resources from "./components/Resources";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollNavigationButtons from "./components/ScrollNavigationButtons";
 import BackgroundImage from "./images/classroom-background.jpg";
 
 function App() {
@@ -22,12 +22,12 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <Authority />
       <Reproduction />
+      <Authority />
       <Resources />
       <About />
       <Footer />
-      <ScrollToTopButton />
+      <ScrollNavigationButtons />
     </div>
   );
 }

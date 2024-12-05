@@ -8,7 +8,10 @@ const Card = ({ title, description, gradient, onClick }) => {
     >
       <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="text-center mb-4">{description}</p>
-      <span className="text-3xl animate-bounce">⬇️</span>
+      <div className="flex flex-col items-center">
+        <span className="text-lg font-semibold animate-bounce">Click me!</span>
+        <span className="text-3xl animate-bounce">☝️</span>
+      </div>
     </div>
   );
 };

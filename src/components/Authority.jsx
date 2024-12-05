@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import AuthorityImage1 from "../images/freedomauthority.png";
+import AuthorityQuiz from "./AuthorityQuiz";
 import Banking from "../images/banking.png";
 import Literature from "../images/literature.jpg";
 import Quote from "../images/quote.png";
 
 const Authority = () => {
+  const [showQuiz, setShowQuiz] = useState(false);
+
+  const toggleQuiz = () => {
+    setShowQuiz((prev) => !prev);
+  };
+
   return (
     <section
       id="authority"
-      className="min-h-screen w-full bg-gray-100 px-6 py-12 text-center md:text-left"
+      className="min-h-screen w-full bg-gray-100 px-6 pt-16 text-center md:text-left"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-teal-700 mb-8">
-          Shared Authority
+        <h2 className="text-4xl font-bold text-teal-700 mb-2">
+          Shared Authority 🤝
         </h2>
         <p className="text-md text-gray-600 mb-8">
           Section Authored By: Hoang Nguyen
@@ -49,21 +56,19 @@ const Authority = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-          {/* <div className="order-last md:order-first"></div> */}
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
+          <div className="order-2 md:order-1">
             <img
               src={Banking}
               alt="Banking educ"
               className="rounded-lg shadow-md"
             />
           </div>
-          <div>
+          <div className="order-1 md:order-2">
             <p className="text-lg text-gray-700 leading-relaxed">
               <h3 className="text-2xl font-semibold text-teal-600 mb-4">
                 Banking Education: A Model of Stability and Control 🏦
               </h3>
-              <br />
               This traditional model ignores the ability of students to
               contribute meaningfully during learning processes. It thus risks
               stifling creativity, curiosity, and the critical thinking
@@ -99,9 +104,11 @@ const Authority = () => {
               <b>
                 "To learn thus entails the authorization of the teacher by the
                 student. When the student accepts the knowledge of the teacher,
-                she has authorized him or her"
-              </b>{" "}
-              . This perspective underscores the active role students play in
+                she has authorized him or her".
+              </b>
+              <br />
+              <br />
+              This perspective underscores the active role students play in
               legitimizing the teacher’s authority, yet in the banking model,
               this dynamic becomes rigid and one-sided. Lack of knowledge is
               often associated with low self-esteem 😟 and poverty. Giving
@@ -125,8 +132,7 @@ const Authority = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-          {/* <div className="order-last md:order-first"></div> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div>
             <p className="text-lg text-gray-700 leading-relaxed">
               <h3 className="text-2xl font-semibold text-teal-600 mb-4">
@@ -175,13 +181,20 @@ const Authority = () => {
               critical thinking was not welcome there. This is a clear example
               of how the banking education model can stifle creativity and
               critical thinking in students. Leading to boredom and dislike of
-              studying literature among students. <br /> <br />
+              studying literature among students.
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 items-center mb-16">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="order-2 md:order-1">
+            <img
+              src={Quote}
+              alt="Educ is freedom"
+              className="rounded-lg shadow-md"
+            />
+          </div>
+          <div className="order-1 md:order-2">
             <p className="text-lg text-gray-700 leading-relaxed">
               <h3 className="text-2xl font-semibold text-teal-600 mb-4">
                 Education as Freedom: Creating Space for Growth and Expression
@@ -196,49 +209,126 @@ const Authority = () => {
               opposite from mine. Education shouldn't be just a matter of
               memorizing the "right answers." Rather, it should be all about
               exploring, questioning, and growing together as learners.
-              <br />
-              From a student's perspective, I wish my teachers had done a few
-              things differently to make the learning experience more engaging
-              and meaningful. Here are some suggestions for teachers to help
-              students feel more empowered and motivated in the classroom:{" "}
-              <br />
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-          {/* <div className="order-last md:order-first"></div> */}
-          <div>
-            <img
-              src={Quote}
-              alt="Educ is freedom"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-          <div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              1. <b>Emphasize Process Over Answers</b>: I wish my teachers had
-              emphasized the process of learning over getting the "right"
-              answer. Celebrate effort, improvement, and curiosity, rather than
-              perfection. This approach could help students like me feel more
-              motivated and less pressured. <br />
-              2. <b>Create a Safe Space for Mistakes</b>: Fear of judgment often
-              held me back from sharing my real thoughts. Teachers should
-              reassure students that making mistakes is part of learning. I
-              would have loved to feel safe sharing an opinion, even if it
-              wasn’t polished or fully formed.
-              <br />
-              3. <b>Provide Constructive Feedback</b>: As a student, I’ve always
-              found that constructive feedback is one of the most valuable tools
-              for improvement. It helps me see where I went wrong, understand
-              what needs to be fixed, and recognize what I did well. Teachers
-              can use feedback to not only correct mistakes but also to guide
-              students toward deeper insights. This approach reassures students
-              that mistakes are part of learning and motivates them to refine
-              their ideas and try again
-            </p>
-          </div>
+        <div className="mb-12 bg-white shadow-lg rounded-lg p-6">
+          <h3 className="text-3xl font-semibold text-teal-600 mb-6">
+            How to Apply Shared Authority to Your Classroom 🧑‍🏫
+          </h3>
+          <ul className="space-y-6">
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Ensure that You Emphasize the Process Over the Answers 🛠️
+                </h4>
+                <p className="text-gray-700">
+                  I wish my teachers had emphasized the process of learning over
+                  getting the "right" answer. Celebrate effort, improvement, and
+                  curiosity, rather than perfection. This approach could help
+                  students like me feel more motivated and less pressured.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Create a Safe Space for Mistakes 🛡️
+                </h4>
+                <p className="text-gray-700">
+                  Fear of judgment often held me back from sharing my real
+                  thoughts. Teachers should reassure students that making
+                  mistakes is part of learning. I would have loved to feel safe
+                  sharing an opinion, even if it wasn’t polished or fully
+                  formed.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-teal-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-teal-600">
+                  Provide Constructive 2-Way Feedback 💬
+                </h4>
+                <p className="text-gray-700">
+                  As a student, I’ve always found that constructive feedback is
+                  one of the most valuable tools for improvement. It helps me
+                  see where I went wrong, understand what needs to be fixed, and
+                  recognize what I did well. Teachers can use feedback to not
+                  only correct mistakes but also to guide students toward deeper
+                  insights. This approach reassures students that mistakes are
+                  part of learning and motivates them to refine their ideas and
+                  try again
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
+
+        <div className="text-center">
+          <button
+            className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
+            onClick={toggleQuiz}
+          >
+            {showQuiz
+              ? "Hide Questions"
+              : "Test Your Shared Authority Knowledge 🤓"}
+          </button>
+        </div>
+
+        {showQuiz && (
+          <div className="mt-8">
+            <AuthorityQuiz />
+          </div>
+        )}
       </div>
     </section>
   );

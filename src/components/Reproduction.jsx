@@ -12,7 +12,7 @@ const Reproduction = () => {
   return (
     <section
       id="reproduction"
-      className="min-h-screen w-full bg-gray-100 px-6 py-12 text-center md:text-left"
+      className="min-h-screen w-full bg-gray-100 px-6 pt-16 text-center md:text-left"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-teal-700 mb-2">
@@ -147,13 +147,13 @@ const Reproduction = () => {
           <div className="order-2 md:order-1">
             <img
               src={ReproductionImage1}
-              alt="Team working together"
+              alt="Work vs school split"
               className="rounded-lg shadow-md"
             />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 mb-12 gap-12 items-center">
+        <div className="grid grid-cols-1 mb-16 gap-12 items-center">
           <div className="order-last md:order-first">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               A Look at Hong Kong's Educational System 🇭🇰
