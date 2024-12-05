@@ -28,22 +28,22 @@ const Reproduction = () => {
               A Snapshot Introduction to Social Reproduction in Education 📸
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              As a teacher, Social Reproduction Theory (SRT) is a concept you
-              must familiarize yourself with to better hone your craft. It seeks
-              to explain how educational systems have the unique ability to
-              reinforce social norms, values and inequalities. Further, it helps
-              us understand how these institutions reproduce these dynamics
-              throughout generations. You, as a teacher, have more power than
-              you may know. This power is immense and comes with great
-              responsibility (a cliche, I know 😬). The ideas from SRT should
-              serve as a reminder regarding a couple of things. First, each step
-              in the pedagogy process matters, as it will shape the future
-              generation and what they deem important. Second, you have the
-              opportunity to make your classroom a space where societal norms
-              are not only questioned but reimagined. Encouraging your students
-              to connect the themes taught in class to real-world issues and
-              their passions, without capping their potential, allows them to
-              make changes beyond the four walls of your classroom.
+              As a teacher, Social Reproduction Theory <b>(SRT)</b> is a concept
+              you must familiarize yourself with to better hone your craft. It
+              seeks to explain how educational systems have the unique ability
+              to reinforce social norms, values and inequalities. Further, it
+              helps us understand how these institutions reproduce these
+              dynamics throughout generations. You, as a teacher, have more
+              power than you may know. This power is immense and comes with
+              great responsibility (a cliche, I know 😬). The ideas from SRT
+              should serve as a reminder regarding a couple of things. First,
+              each step in the pedagogy process matters, as it will shape the
+              future generation and what they deem important. Second, you have
+              the opportunity to make your classroom a space where societal
+              norms are not only questioned but reimagined. Encouraging your
+              students to connect the themes taught in class to real-world
+              issues and their passions, without capping their potential, allows
+              them to make changes beyond the four walls of your classroom.
               <br />
               <br />
               SRT illustrates how education perpetuates inequality within the
