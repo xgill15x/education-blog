@@ -140,12 +140,13 @@ const Authority = () => {
               nation-building. However, the way we have been learning about this
               subject did not really encourage us to think for ourselves. Freire
               explains that under the banking model, students cannot question or
-              create but only "receive, memorize, and repeat" (Freire, 2017).
-              This was precisely what happened in my Literature classes. Our
-              teacher would stand on the podium, read an analysis of the work
-              from some book, and we would write it all down into our notebooks,
-              word by word 📝. Then we just memorized it for the exams. (This
-              was very sad but it did happen throughout my school years 😞)
+              create but only "receive, memorize, and repeat"{" "}
+              <b>(Freire, 2017)</b>. This was precisely what happened in my
+              Literature classes. Our teacher would stand on the podium, read an
+              analysis of the work from some book, and we would write it all
+              down into our notebooks, word by word 📝. Then we just memorized
+              it for the exams. (This was very sad but it did happen throughout
+              my school years 😞)
             </p>
           </div>
           <div>
