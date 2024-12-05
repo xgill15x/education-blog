@@ -66,7 +66,10 @@ const ScrollNavigationButtons = () => {
 
   return (
     isVisible && (
-      <div className="fixed bottom-8 right-4 md:right-8 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 items-center">
+      <div
+        className="fixed bottom-8 right-4 md:right-8 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 items-center"
+        style={{ zIndex: 9999 }}
+      >
         <button
           onClick={scrollToTop}
           className="bg-teal-500 text-white p-2 md:p-3 rounded-full shadow-lg hover:bg-teal-600 transition duration-300 text-sm md:text-base"

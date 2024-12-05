@@ -79,11 +79,9 @@ const Resources = () => {
           resources below to expand your knowledge and go beyond the blog!
         </p>
         <div className="relative overflow-hidden">
-          {/* Gradient Fading Effect */}
           <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-gray-100 to-transparent pointer-events-none z-10"></div>
           <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-gray-100 to-transparent pointer-events-none z-10"></div>
 
-          {/* Carousel */}
           <div className="flex space-x-6 animate-slide">
             {resources.concat(resources, resources).map((resource, index) => (
               <div
