@@ -1,6 +1,6 @@
 import React from "react";
 import JasonImage from "../images/jason.jpg";
-import HoangImage from "../images/hoang.jpg";
+import HoangImage from "../images/hoang.png";
 
 const About = () => {
   const authors = [
