@@ -1,23 +1,25 @@
 import React from "react";
+import JasonImage from "../images/jason.jpg";
+import HoangImage from "../images/hoang.jpg";
 
 const About = () => {
   const authors = [
     {
       name: "Jason Gill",
       bio: "Computer Scientist and Student",
-      image: "../images/jason.jpg",
+      image: JasonImage,
     },
     {
       name: "Hoang Nguyen",
       bio: "Computer Scientist and Student",
-      image: "../images/hoang.jpg",
+      image: HoangImage,
     },
   ];
 
   return (
     <section id="about" className="w-full bg-gray-100 py-12">
       <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
-        <h2 className="text-4xl font-bold text-teal-700 mb-8">About Us</h2>
+        <h2 className="text-4xl font-bold text-teal-700 mb-8">About Us 👋</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {authors.map((author, index) => (
             <div
