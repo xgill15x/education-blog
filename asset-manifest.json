@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/education-blog/static/css/main.7de405c0.css",
-    "main.js": "/education-blog/static/js/main.c1440fce.js",
+    "main.css": "/education-blog/static/css/main.284ebe01.css",
+    "main.js": "/education-blog/static/js/main.3c032737.js",
     "static/js/453.05827196.chunk.js": "/education-blog/static/js/453.05827196.chunk.js",
+    "static/media/pedagogy-of-the-oppressed.pdf": "/education-blog/static/media/pedagogy-of-the-oppressed.0f5c3f1091b8c7b0d4a3.pdf",
+    "static/media/alienated-learning-in-hong-kong-a-marxist-perspective.pdf": "/education-blog/static/media/alienated-learning-in-hong-kong-a-marxist-perspective.e45a2c903e04f5152a67.pdf",
+    "static/media/freedomauthority.png": "/education-blog/static/media/freedomauthority.a74a37251e21156486c5.png",
+    "static/media/social-reproduction-theory-revisited.pdf": "/education-blog/static/media/social-reproduction-theory-revisited.06ecb239824662fa63d8.pdf",
+    "static/media/bingham-lets-treat-authority-relationally.pdf": "/education-blog/static/media/bingham-lets-treat-authority-relationally.f58df39a29ac9142126c.pdf",
+    "static/media/hoang.png": "/education-blog/static/media/hoang.ce81bd8d865e27a9e0a7.png",
     "static/media/reproduction1.jpeg": "/education-blog/static/media/reproduction1.cca3c5c6dbf452d51c3b.jpeg",
+    "static/media/bingham-lets-treat-authority-relationally.png": "/education-blog/static/media/bingham-lets-treat-authority-relationally.7c6be7dfe48fbd54ca0f.png",
+    "static/media/banking.png": "/education-blog/static/media/banking.6e479f36d3b421e33a2a.png",
     "static/media/classroom-background.jpg": "/education-blog/static/media/classroom-background.b1b09c440d316139cd4c.jpg",
-    "static/media/jason.jpg": "/education-blog/static/media/jason.9ea96218fbf08e55573e.jpg",
-    "static/media/authority1.jpg": "/education-blog/static/media/authority1.45ad744e632344926668.jpg",
-    "static/media/hoang.jpg": "/education-blog/static/media/hoang.69f25d96ff88994381dd.jpg",
+    "static/media/literature.jpg": "/education-blog/static/media/literature.81810c1d837b28abcfe8.jpg",
+    "static/media/jason.jpg": "/education-blog/static/media/jason.ef425aef3837c5003afa.jpg",
+    "static/media/alienated-learning-in-hong-kong-a-marxist-perspective.png": "/education-blog/static/media/alienated-learning-in-hong-kong-a-marxist-perspective.4b996b0d01064f60ca58.png",
+    "static/media/social-reproduction-theory-revisited.png": "/education-blog/static/media/social-reproduction-theory-revisited.1d21fc93c7da568f5e57.png",
+    "static/media/quote.png": "/education-blog/static/media/quote.fb888b04881e732a52a8.png",
+    "static/media/pedagogy-of-the-oppressed.jpg": "/education-blog/static/media/pedagogy-of-the-oppressed.f1759e8ac935f3a9c378.jpg",
     "index.html": "/education-blog/index.html",
-    "main.7de405c0.css.map": "/education-blog/static/css/main.7de405c0.css.map",
-    "main.c1440fce.js.map": "/education-blog/static/js/main.c1440fce.js.map",
+    "main.284ebe01.css.map": "/education-blog/static/css/main.284ebe01.css.map",
+    "main.3c032737.js.map": "/education-blog/static/js/main.3c032737.js.map",
     "453.05827196.chunk.js.map": "/education-blog/static/js/453.05827196.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7de405c0.css",
-    "static/js/main.c1440fce.js"
+    "static/css/main.284ebe01.css",
+    "static/js/main.3c032737.js"
   ]
 }
