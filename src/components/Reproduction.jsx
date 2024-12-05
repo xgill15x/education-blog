@@ -296,7 +296,7 @@ const Reproduction = () => {
             className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
             onClick={toggleQuiz}
           >
-            {showQuiz ? "Hide Questions" : "Test Your Knowledge 🤓"}
+            {showQuiz ? "Hide Questions" : "Test Your SRT Knowledge 🤓"}
           </button>
         </div>
 
