@@ -120,7 +120,7 @@ const Reproduction = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div className="order-1 md:order-2">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              A Personal Anecdote About Social Reproduction 📝
+              A Personal Anecdote about Social Reproduction 📝
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               Having recently finished my last internship, I noticed quite an
