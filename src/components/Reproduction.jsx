@@ -25,7 +25,7 @@ const Reproduction = () => {
         <div className="grid grid-cols-1 gap-12 items-center mb-12">
           <div>
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              An Snapshot Introduction to Social Reproduction in Education 📸
+              A Snapshot Introduction to Social Reproduction in Education 📸
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               As a teacher, Social Reproduction Theory (SRT) is a concept you
@@ -293,7 +293,9 @@ const Reproduction = () => {
 
         <div className="text-center">
           <button
-            className="bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200"
+            className={`bg-blue-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-600 transition duration-200 ${
+              !showQuiz ? "animate-bounce" : ""
+            }`}
             onClick={toggleQuiz}
           >
             {showQuiz ? "Hide Questions" : "Test Your SRT Knowledge 🤓"}

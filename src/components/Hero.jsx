@@ -9,11 +9,11 @@ const Hero = () => {
     >
       <div className="p-6 w-full max-w-3xl mt-4">
         <h2 className="text-4xl font-bold mb-4">
-          Guiding Teachers in Shaping the Leaders of Tomorrow 🎯
+          Elevating Teachers, Empowering Futures and Redefining Education 🎯
         </h2>
         <p className="text-lg">
           Our goal is to help new and experienced teachers alike reimagine
-          teaching by discussing Shared Authority and Social Reproduction. Start
+          teaching by discussing Social Reproduction and Shared Authority. Start
           exploring game-changing ideas today 👇
         </p>
       </div>
