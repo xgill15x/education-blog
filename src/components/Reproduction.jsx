@@ -47,14 +47,14 @@ const Reproduction = () => {
               <br />
               <br />
               SRT illustrates how education perpetuates inequality within the
-              classes, races, and genders as it lays out the rigid "who gets to
-              do what" blueprint used all too prevalent in society today.{" "}
+              classes, races, and genders as it exposes the rigid "who gets
+              what" blueprint used all too prevalently in society today.{" "}
               <b>
                 Remember: As an educator, your role is not to decide a student’s
-                path solely based on your preconceived notions of them or what
-                the curriculum demands! You must find ways to empower them to
-                discover and pursue the paths they are passionate about,
-                breaking free from societal expectations.
+                path based on what you think they are well-suited for or what
+                the curriculum demands! You must empower them to pursue the
+                paths they are passionate about, and allow them to break free
+                from societal expectations.
               </b>
             </p>
           </div>
@@ -134,7 +134,7 @@ const Reproduction = () => {
               but reflect on the factors that more than likely have had a hand
               in influencing my direction in life. Have I succeeded because of
               my individuality and passion for what I love, or has the education
-              system, with all its quirks and motives laid out by Social
+              system, with all its quirks and ulterior motives exposed by Social
               Reproduction Theory, prepared me to be the perfect worker for
               capitalist interests? This possibility is entertained by Backer
               and Cairns as they discuss how “the [current] education system is
@@ -161,8 +161,8 @@ const Reproduction = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               Social Reproduction Theory, despite its name, is not purely
               theoretical 😅... it applies to much of what we see in education
-              today. A particular educational journal, Alienated Learning in
-              Hong Kong: A Marxist Perspective, goes on to highlight the
+              today. A particular educational journal, "Alienated Learning in
+              Hong Kong: A Marxist Perspective", goes on to highlight the
               experiences of Student A, who voiced that their education felt
               like "learn[ing] exam skills" and did not contribute to practical
               skills "relevant to [their] life <b>(Tsang, Lian, & Zhu, 2021)</b>

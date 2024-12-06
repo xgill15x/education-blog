@@ -72,23 +72,23 @@ const Authority = () => {
               </h3>
               This Banking model of Education ignores the ability of students to
               contribute to the learning process in any meaningful way. This
-              chips away at their creativity, curiosity and critical thinking,
+              chips away at their creativity, curiosity and critical thinking;
               all aspects needed to fuel the development necessary for deeper
               learning and personal growth. Educator Paulo Freire proposed the
               concept of "Banking Education" in his 1968 work "Pedagogy of the
-              Oppressed". Based on his observations of a stratified Brazilian
-              society, education was used to make people believe in the
-              dominance of the elite, rather than to change society for a more
-              equal life <b>(Freire, 2017)</b>. Banking education thus
-              emphasizes morbid stability, where teachers transmit knowledge to
-              students without interruption, and knowledge is considered a truth
-              that cannot be changed or questioned. At the heart of this concept
-              is the image of the “banker” representing the student, while
-              teachers, or the “bank clerks”, distribute knowledge without
-              influencing or changing it, just as banks are responsible for
-              circulating money. Knowledge becomes an accumulated asset and this
-              leads to the idea that the more you study and accumulate
-              knowledge, the more successful you will be.
+              Oppressed". Based on his observations of a Brazilian society,
+              education was used to make people believe in the dominance of the
+              elite, rather than to change society for a more equal life{" "}
+              <b>(Freire, 2017)</b>. Banking education thus emphasizes morbid
+              stability, where teachers transmit knowledge to students without
+              interruption, and knowledge is considered a truth that cannot be
+              changed or questioned. At the heart of this concept is the image
+              of the “banker” representing the student, while teachers, or the
+              “bank clerks”, distribute knowledge without influencing or
+              changing it, just as banks are responsible for circulating money.
+              Knowledge becomes an accumulated asset and this leads to the idea
+              that the more you study and accumulate knowledge, the more
+              successful you will be.
             </p>
           </div>
         </div>
@@ -111,9 +111,9 @@ const Authority = () => {
               legitimizing the teacher’s authority, yet in the banking model,
               this dynamic becomes rigid and one-sided. Giving students the
               choice of whether or not to learn from you directly affects the
-              stability of the banking education (in a good way 😄). One may
-              wonder why the banking model is widely used and I believe it's due
-              to the utility in teaching in mass. For example, a country may
+              stability of the banking education (that's a good thing 😄). One
+              may wonder why the banking model is widely used and I believe it's
+              due to the utility in teaching in mass. For example, a country may
               employ the banking system to ensure cultural persistence and
               require students to learn history to avoid losing their roots, but
               over time, if the reasons as to why they are learning historical
@@ -195,13 +195,14 @@ const Authority = () => {
               If my teacher had encouraged us to share our genuine thoughts
               about these works and discussed them with us, rather than looking
               so strictly for only one "right answer," I believe that I could
-              have learned much more. Freire's chapter reminds me just how
+              have learned much more. Freire's ideas remind me just how
               important it is to let students think and share openly. If I were
               given the chance to teach, I would want my students to feel
               comfortable airing their opinions, even when their views are quite
               opposite from mine. Education shouldn't be just a matter of
               memorizing the "right answers." Rather, it should be all about
-              exploring, questioning, and growing together as learners.
+              exploring, questioning, and growing together as learners, both
+              students and teachers.
             </p>
           </div>
         </div>
