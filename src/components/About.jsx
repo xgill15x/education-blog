@@ -6,11 +6,13 @@ const About = () => {
   const authors = [
     {
       name: "Jason Gill",
+      role: "Author and Developer",
       bio: "Hey, I'm Jason. I've attended both private and public schools in Canada and experienced how cultural and religious influences play a part in modern education. These experiences have allowed me to garner a breadth of perspectives on the art of pedagogy. While my education has been rooted in Canada, I collaborate closely with Hoang to pair my insights with his international perspective. Having recently learnt ideas in SFU's 'Social Issues in Education' class, I aim to provide educators with the intellectual sustenance that I believe will help them create a positive impact for all students.",
       image: JasonImage,
     },
     {
       name: "Hoang Nguyen",
+      role: "Author and Developer",
       bio: "Hi, I'm Hoang. As an international student, I have had the opportunity to study in two completely different educational settings, in two different cultures, each with its own approach to pedagogy. Having experienced both settings, I’ve seen firsthand how the relationship between teachers and students can shape the learning experience. My story and advice come from this unique perspective, where I now vouch for the importance of creating an environment that values student voice. By sharing my insights, I hope to help educators reflect on how we can improve the educational experience for future generations.",
       image: HoangImage,
     },
@@ -31,9 +33,10 @@ const About = () => {
                 alt={author.name}
                 className="w-32 h-32 rounded-full shadow-lg mb-4 object-cover"
               />
-              <h3 className="text-2xl font-semibold text-teal-600 mb-2">
+              <h3 className="text-2xl font-semibold text-teal-600 mb-1">
                 {author.name}
               </h3>
+              <p className="text-sm text-gray-500 mb-4">{author.role}</p>
               <p className="text-gray-700 text-center">{author.bio}</p>
             </div>
           ))}
