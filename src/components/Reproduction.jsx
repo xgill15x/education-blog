@@ -67,8 +67,8 @@ const Reproduction = () => {
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               An absolutely beautiful and creative piece to introduce you to
-              Social Reproduction Theory is a song by Harry Chaplin called
-              "Flowers Are Red" <b>(Chaplin, 2016)</b>. It's a rather poignant
+              Social Reproduction Theory is a song by Harry Chapin called
+              "Flowers Are Red" <b>(Chapin, 2016)</b>. It's a rather poignant
               story of a child who loses his creative spark as a result of the
               oppressive pedagogy practiced by his teacher. It's an homage to
               the importance of encouraging individuality and questioning norms

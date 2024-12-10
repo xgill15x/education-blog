@@ -49,7 +49,7 @@ const Resources = () => {
     {
       id: 2,
       citation:
-        "Chaplin, H. (2016, May 18). Flowers Are Red. YouTube. https://youtu.be/7qrbNygL0YU?feature=shared",
+        "Chapin, H. (2016, May 18). Flowers Are Red. YouTube. https://youtu.be/7qrbNygL0YU?feature=shared",
     },
     {
       id: 3,
